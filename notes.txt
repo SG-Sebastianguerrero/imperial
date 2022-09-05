@@ -1,0 +1,15 @@
+Subirlo a github
+
+- Hacer un readme increiblemente genial
+- Mirar react route para cambiar el contenido de las secciones en la parte derecha
+- Reaccion de las secciones con el light mode y el dark mode
+- Manejar el lightmode con el local storage, para que cuando se recargue pregunte si estaba o no
+activado
+- Aplicar los diferentes menu segun el rol con la respectiva foto de perfil
+- Barra de busqueda funcional para los items del menu (en ese mismo rol)
+
+
+Subirlo a netlify
+
+
+https://www.codinglabweb.com/2022/01/sidebar-menu-in-html-css-javascript.html
