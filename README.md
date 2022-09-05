@@ -1,3 +1,3 @@
 # imperial
 Clinica Imperial
-Projecto hecho en react 👨‍💻
+Project maded in React 👨‍💻
