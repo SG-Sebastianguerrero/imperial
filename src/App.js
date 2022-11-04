@@ -6,12 +6,10 @@ function App() {
     <div>
       <Navbar></Navbar>    
       <section className="home">
-        <div className="text">Dashboard Sidebar</div>
+        <div className="text">Imperial</div>
       </section>
     </div>
   );
 }
-
-
 
 export default App;

@@ -40,7 +40,7 @@ class Navbar extends Component{
                         </span>
 
                         <div className="text logo-text">
-                            <span className="name">Imperial</span>
+                            <span className="name">Home</span>
                             <span className="profession">Johan Guerrero</span>
                         </div>
                     </div>
@@ -60,49 +60,54 @@ class Navbar extends Component{
                             <li className="nav-link">
                                 <a href="/dashboard">
                                     <i className='bx bx-home-alt icon' ></i>
-                                    <span className="text nav-text">Inicio</span>
+                                    <span className="text nav-text">Inicio </span>
                                 </a>
                             </li>
-
+                            <li className="nav-link">
+                                <a href="/dashboard">
+                                    <i class='bx bx-history icon'></i>
+                                    <span className="text nav-text">Historia Clínica</span>
+                                </a>
+                            </li>
                             <li className="nav-link">
                                 <a href="/dashboard">
                                     <i className='bx bx-user-circle icon'></i>
-                                    <span className="text nav-text">Pacientes</span>
+                                    <span className="text nav-text">Pagos</span>
                                 </a>
                             </li>
 
                             <li className="nav-link">
                                 <a href="/dashboard">
                                     <i className='bx bx-buildings icon'></i>
-                                    <span className="text nav-text">Sedes</span>
+                                    <span className="text nav-text">Solicitud de citas</span>
                                 </a>
                             </li>
 
                             <li className="nav-link">
                                 <a href="/dashboard">
-                                    <i className='bx bx-pie-chart-alt icon' ></i>
-                                    <span className="text nav-text">Resultados</span>
+                                    <i className='bx bx-camera-movie icon'></i>
+                                    <span className="text nav-text">Videollamadas</span>
                                 </a>
                             </li>
 
                             <li className="nav-link">
                                 <a href="/dashboard">
                                     <i className='bx bxs-ambulance icon' ></i>
-                                    <span className="text nav-text">Remision</span>
+                                    <span className="text nav-text">Citas Medicas</span>
                                 </a>
                             </li>
 
                             <li className="nav-link">
                                 <a href="/dashboard">
                                     <i className='bx bx-credit-card icon' ></i>
-                                    <span className="text nav-text">Facturación</span>
+                                    <span className="text nav-text">Pagos y facturas</span>
                                 </a>
                             </li>
 
                             <li className="nav-link">
                                 <a href="/dashboard">
                                     <i className='bx bxs-id-card icon' ></i>
-                                    <span className="text nav-text">Datos</span>
+                                    <span className="text nav-text">Mis Datos</span>
                                 </a>
                             </li>
 
@@ -120,7 +125,7 @@ class Navbar extends Component{
                         <li className="">
                             <a href="/dashboard">
                                 <i className='bx bx-log-out icon' ></i>
-                                <span className="text nav-text">Logout</span>
+                                <span className="text nav-text">Cerrar Sesión</span>
                             </a>
                         </li>
 
