@@ -29,7 +29,7 @@ function App() {
       }
 
       <Routes>
-        <Route index element={<Login/>} />
+        <Route index element={<Home/>} />
         <Route path="/signup" element={<Signup/>} />
         <Route path="/medicalHistory" element={<MedicalHistory/>} />
         <Route path="/dashboard" element={ <Home/> } />
