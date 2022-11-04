@@ -1,4 +1,4 @@
-import '../styles/navbar.css';
+import './Navbar.css';
 import {Component} from "react"
 
 class Navbar extends Component{
@@ -36,7 +36,7 @@ class Navbar extends Component{
                 <header>
                     <div className="image-text">
                         <span className="image">
-                            {/* <img src="logo.png" alt=""> */}
+                            <img src="assets/imperialLogo.png" alt="profile"></img>
                         </span>
 
                         <div className="text logo-text">
@@ -64,7 +64,7 @@ class Navbar extends Component{
                                 </a>
                             </li>
                             <li className="nav-link">
-                                <a href="/dashboard">
+                                <a href="/medicalHistory">
                                     <i class='bx bx-history icon'></i>
                                     <span className="text nav-text">Historia Clínica</span>
                                 </a>
@@ -123,7 +123,7 @@ class Navbar extends Component{
 
                     <div className="bottom-content">
                         <li className="">
-                            <a href="/dashboard">
+                            <a href="/">
                                 <i className='bx bx-log-out icon' ></i>
                                 <span className="text nav-text">Cerrar Sesión</span>
                             </a>
