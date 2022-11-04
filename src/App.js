@@ -1,6 +1,6 @@
 import './styles/App.css';
 import Navbar from './components/Navbar';
-
+/* hola */
 function App() {
   return (
     <div>
@@ -11,5 +11,7 @@ function App() {
     </div>
   );
 }
+
+
 
 export default App;
