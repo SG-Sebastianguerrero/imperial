@@ -264,3 +264,7 @@ body.dark .switch::before{
 body.dark .internalSection .text{
     color: var(--text-color);
 }
+
+.fontTitle{
+    color: #4E4E56
+}
