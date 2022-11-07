@@ -1,15 +1,15 @@
 import '../default.css';
 import './MedicalHistory.css';
-import {Component} from "react"
 import Navbar from '../../components/Navbar/Navbar';
+import {Component} from "react"
 
 class MedicalHistory extends Component{
     render(){
         return <>
-                {/* <div>
-                    <Navbar></Navbar>
-                </div> */}
                 <div>
+                    <Navbar></Navbar>
+                
+                    <div>
                     <table>
                         <tr>
                             <div
@@ -209,7 +209,7 @@ class MedicalHistory extends Component{
                         
                         
                     </div>
-                {/* </div> */}
+                </div>
         </>
     }
 }

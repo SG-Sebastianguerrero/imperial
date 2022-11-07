@@ -1,18 +1,18 @@
 import '../default.css';
-import './Home.css';
+import './Settings.css';
 import Navbar from '../../components/Navbar/Navbar';
 import {Component} from "react"
 
-class Home extends Component{
+class Settings extends Component{
     render(){
         return(
             <div>
                 <Navbar></Navbar>
-                <section className="internalSection home">
-                    <h1 className="text">Inicio</h1>
+                <section className="internalSection medicalHistory">
+                    <h1 className="text">Configuración</h1>
                 </section>
             </div>
         )
     }
 }
-export default Home
+export default Settings

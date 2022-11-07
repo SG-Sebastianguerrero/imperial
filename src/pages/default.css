@@ -46,3 +46,6 @@ body.dark{
     --toggle-color: #fff;
     --text-color: #ccc;
 }
+a{
+    color: var(--imperial-grey);
+}

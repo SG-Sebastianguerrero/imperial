@@ -1,18 +1,18 @@
 import '../default.css';
-import './Home.css';
+import './PaymentsAndBilling.css';
 import Navbar from '../../components/Navbar/Navbar';
 import {Component} from "react"
 
-class Home extends Component{
+class PaymentsAndBilling extends Component{
     render(){
         return(
             <div>
                 <Navbar></Navbar>
-                <section className="internalSection home">
-                    <h1 className="text">Inicio</h1>
+                <section className="internalSection medicalHistory">
+                    <h1 className="text">Pagos y facturas</h1>
                 </section>
             </div>
         )
     }
 }
-export default Home
+export default PaymentsAndBilling
