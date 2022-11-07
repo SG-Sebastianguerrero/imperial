@@ -8,8 +8,8 @@ class Home extends Component{
         return(
             <div>
                 <Navbar></Navbar>
-                <section className='home'>
-                    <div className='text'>Imperial</div>
+                <section className="internalSection home">
+                    <h1 className="text">Inicio</h1>
                 </section>
             </div>
         )

@@ -1,18 +1,18 @@
 import '../default.css';
-import './MedicalHistory.css';
+import './Settings.css';
 import Navbar from '../../components/Navbar/Navbar';
 import {Component} from "react"
 
-class MedicalHistory extends Component{
+class Settings extends Component{
     render(){
         return(
             <div>
                 <Navbar></Navbar>
                 <section className="internalSection medicalHistory">
-                    <h1 className="text">Historial Clínico</h1>
+                    <h1 className="text">Configuración</h1>
                 </section>
             </div>
         )
     }
 }
-export default MedicalHistory
+export default Settings

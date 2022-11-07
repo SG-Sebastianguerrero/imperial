@@ -1,6 +1,5 @@
 import './Navbar.css';
 import {Component} from "react"
-
 class Navbar extends Component{
 
     closeToggle(){
@@ -65,54 +64,48 @@ class Navbar extends Component{
                             </li>
                             <li className="nav-link">
                                 <a href="/medicalHistory">
-                                    <i class='bx bx-history icon'></i>
+                                    <i className='bx bx-history icon'></i>
                                     <span className="text nav-text">Historia Clínica</span>
                                 </a>
                             </li>
-                            <li className="nav-link">
-                                <a href="/dashboard">
-                                    <i className='bx bx-user-circle icon'></i>
-                                    <span className="text nav-text">Pagos</span>
-                                </a>
-                            </li>
 
                             <li className="nav-link">
-                                <a href="/dashboard">
-                                    <i className='bx bx-buildings icon'></i>
-                                    <span className="text nav-text">Solicitud de citas</span>
-                                </a>
-                            </li>
-
-                            <li className="nav-link">
-                                <a href="/dashboard">
-                                    <i className='bx bx-camera-movie icon'></i>
-                                    <span className="text nav-text">Videollamadas</span>
-                                </a>
-                            </li>
-
-                            <li className="nav-link">
-                                <a href="/dashboard">
+                                <a href="/MedicalAppointments">
                                     <i className='bx bxs-ambulance icon' ></i>
                                     <span className="text nav-text">Citas Medicas</span>
                                 </a>
                             </li>
 
                             <li className="nav-link">
-                                <a href="/dashboard">
+                                <a href="/AppointmentsRequest">
+                                    <i className='bx bx-buildings icon'></i>
+                                    <span className="text nav-text">Solicitud de citas</span>
+                                </a>
+                            </li>
+
+                            <li className="nav-link">
+                                <a href="/VideoCalls">
+                                    <i className='bx bx-camera-movie icon'></i>
+                                    <span className="text nav-text">Video llamadas</span>
+                                </a>
+                            </li>
+
+                            <li className="nav-link">
+                                <a href="/PaymentsAndBilling">
                                     <i className='bx bx-credit-card icon' ></i>
                                     <span className="text nav-text">Pagos y facturas</span>
                                 </a>
                             </li>
 
-                            <li className="nav-link">
+                            {/* <li className="nav-link">
                                 <a href="/dashboard">
                                     <i className='bx bxs-id-card icon' ></i>
-                                    <span className="text nav-text">Mis Datos</span>
+                                    <span className="text nav-text">Datos Personales</span>
                                 </a>
-                            </li>
+                            </li> */}
 
                             <li className="nav-link">
-                                <a href="/dashboard">
+                                <a href="/Settings">
                                     <i className='bx bx-cog icon' ></i>
                                     <span className="text nav-text">Configuracion</span>
                                 </a>
