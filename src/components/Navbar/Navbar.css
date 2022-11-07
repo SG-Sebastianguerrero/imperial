@@ -9,6 +9,8 @@
     background: var(--sidebar-color);
     transition: var(--tran-05);
     z-index: 100;  
+    /* scrollbar-color: #6969dd #e0e0e0;
+    scrollbar-width: thin; */
 }
 .sidebar.close{
     width: 88px;
@@ -171,6 +173,7 @@ body.dark .sidebar li a:hover .text{
     flex-direction: column;
     justify-content: space-between;
     overflow-y: scroll;
+    overflow-x: hidden;
 }
 .menu-bar::-webkit-scrollbar{
     display: none;
