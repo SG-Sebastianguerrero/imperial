@@ -1,112 +1,116 @@
-.login{
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    grid-template-rows: repeat(1, 1fr);
+.login {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(1, 1fr);
 }
-.loginHero, #circleBack{
-    grid-column: 1 / 4;
-    grid-row: 1;
+.loginHero,
+#circleBack {
+  grid-column: 1 / 4;
+  grid-row: 1;
 }
-.form, #logIn, #logOut{
-    grid-column: 4 / 6;
-    grid-row: 1;
+.form,
+#logIn,
+#logOut {
+  grid-column: 4 / 6;
+  grid-row: 1;
 }
-.loginHero{
-    display: flex;
-    width: 100%;
-    height: 100vh;
-    align-items: center;
-    justify-content: space-between;
-    flex-direction: column-reverse;
-    background: var(--imperial-white);
+.loginHero {
+  display: flex;
+  width: 100%;
+  height: 100vh;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column-reverse;
+  background: var(--imperial-white);
 }
-#circleBack{
-    width: 60vw;
-    position: relative;
+#circleBack {
+  width: 60vw;
+  position: relative;
 }
-.circleBackContainer{
-    width: auto;
-    height: auto;
-    display: flex;
-    align-items: flex-end;
-    justify-content: center;
+.circleBackContainer {
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
 }
-.logoContainer{
-    position: absolute;
-    display: flex;
-    flex-direction: column-reverse;
-    align-items: center;
-    height: 100%;
-    justify-content: center;
-    color: var(--imperial-white);
-    background: linear-gradient(180deg, #6BB5D0 2.92%, #37EABB 100%);
+.logoContainer {
+  position: absolute;
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+  height: 100%;
+  justify-content: center;
+  color: var(--imperial-white);
+  background: linear-gradient(180deg, #6bb5d0 2.92%, #37eabb 100%);
 }
-.pImperial{
-    font-size: 35px;
-    font-weight: bolder;
+.pImperial {
+  font-size: 35px;
+  font-weight: bolder;
 }
-.form{
-    width: 100%;
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: stretch;
-    padding: 0 70px;
+.form {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: stretch;
+  padding: 0 70px;
 }
-.formInput{
-    height: 35px;
-    margin: 10px 0;
-    border: none;
-    border-radius: 15px;
-    text-align: center;
+.formInput {
+  height: 35px;
+  margin: 10px 0;
+  border: none;
+  border-radius: 5px !important;
+  text-align: center;
 }
-.input:hover, input:focus-visible {
-    outline: none!important;
-    text-align: center;
+.input:hover,
+input:focus-visible {
+  outline: none !important;
+  text-align: center;
 }
-.btnForm{
-    background: linear-gradient(90deg, #6BB5D0 2.92%, #37EABB 100%);
-    color: var(--imperial-white);
-    font-weight: 500;
-    border-radius: 40px;
-    font-size: 18px;
-    border: none;
-    padding: 15px;
-    cursor: pointer;
+.btnForm {
+  background: linear-gradient(90deg, #6bb5d0 2.92%, #37eabb 100%);
+  color: var(--imperial-white);
+  font-weight: 500;
+  border-radius: 40px;
+  font-size: 18px;
+  border: none;
+  padding: 15px;
+  cursor: pointer;
 }
-.formText{
-    text-align: center;
-    margin: 10px 0;
+.formText {
+  text-align: center;
+  margin: 10px 0;
 }
-h1{
-    font-weight: 500;
+h1 {
+  font-weight: 500;
 }
-.alternativeLogin{
-    height: 165px;
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    align-items: center;
-    justify-content: space-between;
+.alternativeLogin {
+  height: 165px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  justify-content: space-between;
 }
-.btnAlternative{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    padding: 10px 0;
-    border-radius: 50px;
-    border: none;
-    font-weight: 500;
-    background: var(--imperial-white);
-    cursor: pointer;
+.btnAlternative {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  padding: 10px 0;
+  border-radius: 50px;
+  border: none;
+  font-weight: 500;
+  background: var(--imperial-white);
+  cursor: pointer;
 }
-.btnAlternative img{
-    width: 30px;
-    height: 30px;
-    margin: 0 10px;
+.btnAlternative img {
+  width: 30px;
+  height: 30px;
+  margin: 0 10px;
 }
-.formForgotPassword{
-    text-align: center;
+.formForgotPassword {
+  text-align: center;
 }
