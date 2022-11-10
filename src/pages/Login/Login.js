@@ -1,14 +1,30 @@
 import "../default.css";
 import "./Login.css";
 import PreLoader from "../../components/PreLoader/PreLoader.js";
+import { useNavigate } from "react-router-dom";
 /* import { withRouter } from "react-router-dom"; */
 
 function Login() {
-  const isAuthorized = () => {
-    /* this.props.history.push("/dashboard"); */
-    window.location.replace("/dashboard");
-    /* redirect("/dashboard") */
-    console.log("you will be redirected");
+  const Navigate = useNavigate();
+
+  const IsAuthorized = () => {
+    try {
+      var username = document.getElementById("email").value;
+      var password = document.getElementById("password").value;
+      var errors = document.getElementById("errors");
+      errors.style.display = "none";
+
+      if (username === "root" && password === "root") {
+        /* window.location.replace("/dashboard"); */
+        Navigate("/dashboard");
+      } else {
+        errors.style.display = "block";
+        errors.innerText = "Correo o contraseña incorrectos";
+        /*  alert("the given data was invalid"); */
+      }
+    } catch (error) {
+      console.log(error);
+    }
   };
 
   return (
@@ -34,18 +50,23 @@ function Login() {
       </aside>
       <div className="form">
         <h1 className="formText">Inicio de sesión</h1>
-
+        <span id="errors"></span>
         <label>Correo</label>
-        <input className="formInput" type="text"></input>
+        <input id="email" className="formInput" type="text" required></input>
 
         <label>Contraseña</label>
-        <input className="formInput" type="password"></input>
+        <input
+          id="password"
+          className="formInput"
+          type="password"
+          required
+        ></input>
 
-        <a className="formForgotPassword" href="/">
+        <a className="formForgotPassword links" href="/ForgotPassword">
           ¿Olvidaste tu contraseña?
         </a>
 
-        <button className="btnForm formText" onClick={isAuthorized}>
+        <button className="btnForm formText" onClick={IsAuthorized}>
           Iniciar sesión
         </button>
 
@@ -70,7 +91,10 @@ function Login() {
         </div>
 
         <span className="formText">
-          ¿No tienes cuenta? <a href="/signup"> Regístrate </a>
+          ¿No tienes cuenta?&nbsp;
+          <a className="links" href="/signup">
+            Regístrate
+          </a>
         </span>
       </div>
     </section>
