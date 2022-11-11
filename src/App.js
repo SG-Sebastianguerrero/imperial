@@ -8,6 +8,7 @@ import MedicalHistory from "./pages/MedicalHistory/MedicalHistory.js";
 import MedicalAppointments from "./pages/MedicalAppointments/MedicalAppointments.js";
 import AppointmentsRequest from "./pages/AppointmentsRequest/AppointmentsRequest.js";
 import PaymentsAndBilling from "./pages/PaymentsAndBilling/PaymentsAndBilling.js";
+import PaymentMethods from "./pages/PaymentMethods/PaymentMethods.js";
 import Settings from "./pages/Settings/Settings.js";
 import VideoCalls from "./pages/VideoCalls/VideoCalls.js";
 
@@ -46,6 +47,7 @@ function App() {
         <Route path="/PaymentsAndBilling" element={<PaymentsAndBilling />} />
         <Route path="/Settings" element={<Settings />} />
         <Route path="/ForgotPassword" element={<ForgotPassword />} />
+        <Route path="/PaymentMethods" element={<PaymentMethods />} />
 
         {/* <Route element={<ProtectedRoute user={user}> */}
         {/*  </ProtectedRoute>} /> */}

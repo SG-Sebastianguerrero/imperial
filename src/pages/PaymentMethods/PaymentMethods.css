@@ -1,0 +1,59 @@
+.medicalHistory {
+  display: flex !important;
+  justify-content: center;
+  align-items: center;
+}
+.paymentMethods {
+  width: 600px;
+  height: 600px;
+  border-radius: 50px;
+  display: flex;
+  position: absolute;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  background: var(--imperial-white);
+  padding: 30px;
+}
+.btnForm {
+  background: linear-gradient(90deg, #6bb5d0 2.92%, #37eabb 100%);
+  color: var(--imperial-white);
+  font-weight: 500;
+  border-radius: 40px;
+  font-size: 18px;
+  border: none;
+  padding: 15px;
+  cursor: pointer;
+  width: 90%;
+}
+.text-container {
+  width: 425px;
+}
+.select-container {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  padding: 0px 25px;
+  border-radius: 10px;
+  color: var(--text-color);
+}
+.label-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-direction: column;
+  width: 100%;
+}
+#paymentMethods {
+  border: 1px solid var(--text-color);
+}
+.label-description {
+  color: var(--text-color);
+  font-size: 16px;
+}
+.label-indication {
+  /* color: var(--imperial-black); */
+  color: var(--text-color);
+  font-size: 22px;
+  font-weight: 500;
+}

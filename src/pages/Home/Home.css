@@ -1,0 +1,70 @@
+.hlfcircle-gradient {
+  position: absolute;
+  width: 500px;
+  right: 0;
+  top: 0;
+  z-index: 0;
+}
+.events,
+h1 {
+  z-index: 1;
+  position: relative;
+}
+.events {
+  padding: 12px 60px;
+}
+.events-title {
+  padding: 20px 0;
+  font-weight: 600;
+  color: var(--text-color);
+}
+.event-container {
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  justify-content: space-around;
+  width: 500px;
+  height: 130px;
+  background: var(--imperial-white);
+  border-radius: 10px;
+}
+.calendar,
+.event-details {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.calendar {
+  align-items: center;
+  height: -webkit-fill-available;
+  margin: 10px 0;
+  padding: 0 20px;
+}
+.calendar-number {
+  background: #00293a;
+  color: var(--imperial-white);
+  font-size: 30px;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 20px;
+}
+.calendar-month {
+  display: flex;
+  align-items: baseline;
+  justify-content: center;
+  height: 5px;
+}
+.infoIcon {
+  padding-top: 25px;
+}
+.event-details {
+  align-items: baseline;
+  height: 100%;
+}
+.event-details span {
+  text-align: left;
+  color: var(--text-color);
+}
