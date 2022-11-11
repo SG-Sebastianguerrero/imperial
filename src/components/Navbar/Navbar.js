@@ -51,10 +51,10 @@ class Navbar extends Component {
 
         <div className="menu-bar">
           <div className="menu">
-            <li className="search-box" onClick={this.searchBoxActive}>
+            {/* <li className="search-box" onClick={this.searchBoxActive}>
               <i className="bx bx-search icon"></i>
               <input type="text" placeholder="Search..."></input>
-            </li>
+            </li> */}
 
             <ul className="menu-links">
               <li className="nav-link">
@@ -115,13 +115,6 @@ class Navbar extends Component {
           </div>
 
           <div className="bottom-content">
-            <li className="">
-              <a href="/">
-                <i className="bx bx-log-out icon"></i>
-                <span className="text nav-text">Cerrar Sesión</span>
-              </a>
-            </li>
-
             <li className="mode">
               <div className="sun-moon">
                 <i className="bx bx-moon icon moon"></i>
@@ -132,6 +125,12 @@ class Navbar extends Component {
               <div className="toggle-switch" onClick={this.modeSwitchClick}>
                 <span className="switch"></span>
               </div>
+            </li>
+            <li className="">
+              <a href="/">
+                <i className="bx bx-log-out icon"></i>
+                <span className="text nav-text">Cerrar Sesión</span>
+              </a>
             </li>
           </div>
         </div>
