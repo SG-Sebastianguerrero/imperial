@@ -1,0 +1,116 @@
+.paymentsAndBilling {
+  display: flex !important;
+  height: auto !important;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+}
+.btnForm {
+  background: linear-gradient(90deg, #6bb5d0 2.92%, #37eabb 100%);
+  color: var(--imperial-white);
+  font-weight: 500;
+  border-radius: 40px;
+  font-size: 18px;
+  border: none;
+  padding: 15px;
+  cursor: pointer;
+}
+.filter-buttons {
+  width: 100%;
+  height: auto;
+  display: flex;
+  margin: 20px 0;
+  background: var(--body-color);
+  justify-content: space-around;
+  align-items: baseline;
+}
+.filter-buttons_active {
+  background: var(--sidebar-color) !important;
+  color: var(--text-color);
+  border: 1px solid var(--text-color);
+}
+.filter-disabled {
+  background: var(--body-color);
+  color: var(--text-color);
+}
+.filter-container {
+  width: 800px;
+  height: 100%;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.card {
+  display: grid;
+  background: var(--sidebar-color);
+  border: 1px solid var(--text-color);
+  border-radius: 20px;
+  text-align: left;
+  padding: 20px;
+  margin: 10px 0px;
+}
+span {
+  color: var(--text-color);
+}
+.btnToPay {
+  background: linear-gradient(90deg, #6bb5d0 2.92%, #37eabb 100%);
+  color: var(--imperial-white);
+  font-weight: 500;
+  border-radius: 40px;
+  font-size: 18px;
+  width: 30%;
+  padding: 0 25px;
+  display: flex;
+  margin: 0 0 0 70%;
+  justify-content: center;
+  text-align: center;
+}
+#pay,
+#paid {
+  width: 100%;
+  padding: 10px 0;
+  border-radius: 15px;
+  color: var(--text-color);
+}
+#toPay,
+#alreadyPaid {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 100%;
+  height: auto;
+}
+#alreadyPaid {
+  display: none;
+}
+#filters {
+  display: none;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: center;
+  background: var(--sidebar-color);
+  width: 100%;
+  height: auto;
+  border-radius: 15px;
+  padding: 20px;
+  margin: 20px;
+}
+#filter-cancel {
+  background: lightcoral;
+  display: flex;
+  width: 100px;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  margin-left: calc(100% - 100px);
+  color: floralwhite;
+  border-radius: 5px;
+}
+.filterInputs {
+  border-radius: 10px;
+  margin: 20px 0;
+  background: var(--sidebar-color) !important;
+  color: var(--text-color);
+}

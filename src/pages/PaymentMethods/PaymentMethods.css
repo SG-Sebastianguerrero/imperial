@@ -12,7 +12,8 @@
   flex-direction: column;
   justify-content: space-evenly;
   align-items: center;
-  background: var(--imperial-white);
+  background: var(--sidebar-color);
+  color: var(--text-color);
   padding: 30px;
 }
 .btnForm {
@@ -39,20 +40,19 @@
 }
 .label-content {
   display: flex;
-  justify-content: space-between;
-  align-items: flex-start;
-  flex-direction: column;
-  width: 100%;
+  gap: 18px;
+  align-items: center;
 }
 #paymentMethods {
   border: 1px solid var(--text-color);
+  background: var(--sidebar-color);
+  color: var(--text-color);
 }
 .label-description {
   color: var(--text-color);
-  font-size: 16px;
+  font-size: 18px;
 }
 .label-indication {
-  /* color: var(--imperial-black); */
   color: var(--text-color);
   font-size: 22px;
   font-weight: 500;
