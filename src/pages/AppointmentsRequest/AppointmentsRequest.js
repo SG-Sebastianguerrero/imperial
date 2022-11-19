@@ -55,10 +55,10 @@ class AppointmentsRequest extends Component{
                             </div>
                             <div className="flex w-full">
                                 <div className="w-1/2 p-8">
-                                    <button className="btnForm fontButton">Cancelar</button>
+                                    <button className="btnForm3 fontButton">Cancelar</button>
                                 </div>
                                 <div className="w-1/2 p-8">
-                                    <button className="btnForm fontButton">Confirmar</button>    
+                                    <button className="btnForm3 fontButton">Confirmar</button>    
                                 </div>
                             </div>
                         </div>
