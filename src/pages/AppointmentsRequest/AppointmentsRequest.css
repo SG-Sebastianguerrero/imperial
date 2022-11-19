@@ -1,0 +1,27 @@
+.btnForm {
+    background: linear-gradient(90deg, #6bb5d0 2.92%, #37eabb 100%);
+    color: var(--imperial-white);
+    font-weight: 500;
+    border-radius: 40px;
+    font-size: 18px;
+    border: none;
+    padding: 15px;
+    cursor: pointer;
+    width: 90%;
+  }
+
+.fontButton {
+  width: 100%;
+  padding: 10px 0;
+  border-radius: 15px;
+  color: var(--primary-color-light);
+}
+
+.fontSubtitle{
+    font-weight: bold;
+    color: #1e293b
+}
+
+.styleBox{
+    border-radius: 1rem;
+}

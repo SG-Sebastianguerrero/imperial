@@ -1,0 +1,60 @@
+.fontSubtitle{
+    font-weight: bold;
+    color: #1e293b
+}
+
+
+.btnForm {
+    background: white;
+    color: var(--imperial-grey);
+    font-weight: 20%;
+    border-radius: 1rem;
+    font-size: 1rem;
+    border: none;
+    padding: 1rem;
+    cursor: pointer;
+    width: 80%;
+    margin: 1rem;
+  }
+
+.dark-background {
+    background: #00293A;
+    border-radius: 0.5rem;
+}
+
+.ligth-font{
+    color: var(--primary-color-light);
+}
+
+.space-between{
+    margin-right: 0.5rem;
+    margin-left: 0.5rem;
+}
+
+.backgrounlight{
+    background: white;
+    border-radius: 0.5rem;
+}
+
+.borderInput{
+    border: none;
+border-color: transparent;
+}
+
+.btnForm2 {
+    background: linear-gradient(90deg, #6bb5d0 2.92%, #37eabb 100%);
+    color: var(--imperial-white);
+    border-radius: 2rem;
+    font-size: 1rem;
+    border: none;
+    padding: 0.2rem;
+    cursor: pointer;
+    width: 60%;
+    margin-bottom: 0.5rem;
+    margin-top: 0.5rem;
+  }
+
+.centerElement{
+    margin-left: 5rem;
+    margin-top: 0.7rem;
+}
