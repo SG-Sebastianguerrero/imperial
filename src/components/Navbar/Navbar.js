@@ -39,7 +39,7 @@ class Navbar extends Component {
 
             <div className="text logo-text">
               <span className="name">Home</span>
-              <span className="profession">Johan Guerrero</span>
+              <span className="profession">Bienvenido @User</span>
             </div>
           </div>
 

@@ -11,7 +11,7 @@ import PaymentsAndBilling from "./pages/PaymentsAndBilling/PaymentsAndBilling.js
 import PaymentMethods from "./pages/PaymentMethods/PaymentMethods.js";
 import Settings from "./pages/Settings/Settings.js";
 import VideoCalls from "./pages/VideoCalls/VideoCalls.js";
-
+import Calling from './pages/VideoCalls/Calling.js';
 /* import { ProtectedRoute } from './components/ProtectedRoute.js' */
 
 function App() {
@@ -48,6 +48,7 @@ function App() {
         <Route path="/Settings" element={<Settings />} />
         <Route path="/ForgotPassword" element={<ForgotPassword />} />
         <Route path="/PaymentMethods" element={<PaymentMethods />} />
+        <Route path="/Calling" element={<Calling />} />
 
         {/* <Route element={<ProtectedRoute user={user}> */}
         {/*  </ProtectedRoute>} /> */}
