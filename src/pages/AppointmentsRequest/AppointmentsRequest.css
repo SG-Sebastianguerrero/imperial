@@ -25,3 +25,13 @@
 .styleBox{
     border-radius: 1rem;
 }
+
+.filter-container {
+  width: 800px;
+  height: 100%;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-around;
+}
