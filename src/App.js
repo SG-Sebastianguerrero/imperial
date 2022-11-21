@@ -49,7 +49,6 @@ function App() {
         <Route path="/ForgotPassword" element={<ForgotPassword />} />
         <Route path="/PaymentMethods" element={<PaymentMethods />} />
         <Route path="/Calling" element={<Calling />} />
-
         {/* <Route element={<ProtectedRoute user={user}> */}
         {/*  </ProtectedRoute>} /> */}
       </Routes>

@@ -70,12 +70,12 @@ class Navbar extends Component {
                 </a>
               </li>
 
-              <li className="nav-link">
+              {/* <li className="nav-link">
                 <a href="/MedicalAppointments">
                   <i className="bx bxs-ambulance icon"></i>
                   <span className="text nav-text">Citas Medicas</span>
                 </a>
-              </li>
+              </li> */}
 
               <li className="nav-link">
                 <a href="/AppointmentsRequest">
@@ -108,7 +108,7 @@ class Navbar extends Component {
               <li className="nav-link">
                 <a href="/Settings">
                   <i className="bx bx-cog icon"></i>
-                  <span className="text nav-text">Configuracion</span>
+                  <span className="text nav-text">Datos Personales</span>
                 </a>
               </li>
             </ul>

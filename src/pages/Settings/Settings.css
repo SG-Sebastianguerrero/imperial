@@ -1,0 +1,34 @@
+
+.icon-user{
+    margin-top: 1rem;
+    cursor: pointer; 
+    margin-left: 5rem;
+}
+
+.big-icon {
+    margin-left: 35%;
+    margin-top: 10%;
+    cursor: pointer; 
+}
+
+.styleBox{
+    border-radius: 1rem;
+}
+
+.font{
+    color: grey;
+}
+
+.delete-account{
+    color: red;
+    background: white;
+    height: 2.5rem;
+    padding-top: 0.5rem;
+    padding-left: 2rem;
+    cursor: pointer;
+}
+
+div.delete-account:hover{
+    color: white;
+    background: rgba(204, 9, 9, 0.897); 
+}

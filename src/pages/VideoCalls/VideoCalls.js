@@ -2,8 +2,10 @@ import '../default.css';
 import './VideoCalls.css';
 import Navbar from '../../components/Navbar/Navbar';
 import {Component} from "react"
+import { Link } from "react-router-dom";
 
 class VideoCalls extends Component{
+
     render(){
         return(
             <div>
@@ -81,42 +83,48 @@ class VideoCalls extends Component{
                         </div>
                         <div className='w-full'>
                             <div class="grid grid-cols-3 dark-background">
-                                <div className='centerElement'>
-                                    <i class="fa-solid fa-user fa-lg"></i>
+                                <div className='centerElement2'>
+                                    <i class="fa-solid fa-user fa-xl icon"></i>
                                 </div>
                                 <div className='centerElement'>
                                     <label className='ligth-font text-center'>Juan Machado</label>
                                 </div>
-                                <div>
-                                    <button className="btnForm2 fontButton centerElement">Invitar</button> 
+                                <div className='centerElement'>            
+                                    <div className="btnForm2 fontButton">
+                                        <a href="/Calling" className='center-font'>Invitar</a>
+                                    </div>                              
                                 </div>
                             </div>
                         </div>
 
                         <div className='w-full'>
                             <div class="grid grid-cols-3 dark-background">
-                                <div className='centerElement'>
-                                    <i class="fa-solid fa-user fa-lg"></i>
+                                <div className='centerElement2'>
+                                    <i class="fa-solid fa-user fa-xl icon"></i>
                                 </div>
                                 <div className='centerElement'>
                                     <label className='ligth-font text-center'>Manuel Vasquez</label>
                                 </div>
-                                <div>
-                                    <button className="btnForm2 fontButton centerElement">Invitar</button> 
+                                <div className='centerElement'>            
+                                    <div className="btnForm2 fontButton">
+                                        <a href="/Calling" className='center-font'>Invitar</a>
+                                    </div>                              
                                 </div>
                             </div>
                         </div>
 
                         <div className='w-full'>
                             <div class="grid grid-cols-3 dark-background">
-                                <div className='centerElement'>
-                                    <i class="fa-solid fa-user fa-lg"></i>
+                                <div className='centerElement2'>
+                                    <i class="fa-solid fa-user fa-xl icon"></i>
                                 </div>
                                 <div className='centerElement'>
                                     <label className='ligth-font text-center'>Sandra Torrado</label>
                                 </div>
-                                <div>
-                                    <button className="btnForm2 fontButton centerElement">Invitar</button> 
+                                <div className='centerElement'>            
+                                    <div className="btnForm2 fontButton">
+                                        <a href="/Calling" className='center-font'>Invitar</a>
+                                    </div>                              
                                 </div>
                             </div>
                         </div>

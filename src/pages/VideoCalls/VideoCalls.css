@@ -49,12 +49,24 @@ border-color: transparent;
     border: none;
     padding: 0.2rem;
     cursor: pointer;
-    width: 60%;
+    width: 80%;
     margin-bottom: 0.5rem;
     margin-top: 0.5rem;
   }
 
 .centerElement{
+    margin-left: 5rem;
+}
+
+.center-font{
+    margin-left:2.5rem;
+}
+
+.icon {
+    color: white;
+}
+
+.centerElement2{
     margin-left: 5rem;
     margin-top: 0.7rem;
 }

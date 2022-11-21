@@ -48,3 +48,13 @@
 .footer{
   background: white;
 }
+
+.down-elements{
+  margin-top: 2rem;
+  
+}
+
+.pull-apart-elemts{
+  margin-left: 1.5rem;
+  cursor: pointer;
+}
