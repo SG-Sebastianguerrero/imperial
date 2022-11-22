@@ -51,10 +51,10 @@ class Navbar extends Component {
 
         <div className="menu-bar">
           <div className="menu">
-            {/* <li className="search-box" onClick={this.searchBoxActive}>
+            <li className="search-box" onClick={this.searchBoxActive}>
               <i className="bx bx-search icon"></i>
               <input type="text" placeholder="Search..."></input>
-            </li> */}
+            </li>
 
             <ul className="menu-links">
               <li className="nav-link">
@@ -70,19 +70,19 @@ class Navbar extends Component {
                 </a>
               </li>
 
-              {/* <li className="nav-link">
+              <li className="nav-link">
                 <a href="/MedicalAppointments">
                   <i className="bx bxs-ambulance icon"></i>
                   <span className="text nav-text">Citas Medicas</span>
                 </a>
-              </li> */}
+              </li>
 
-              <li className="nav-link">
+              {/* <li className="nav-link">
                 <a href="/AppointmentsRequest">
                   <i className="bx bx-buildings icon"></i>
                   <span className="text nav-text">Solicitud de citas</span>
                 </a>
-              </li>
+              </li> */}
 
               <li className="nav-link">
                 <a href="/VideoCalls">

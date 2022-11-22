@@ -1,14 +1,14 @@
 .btnForm3 {
-    background: linear-gradient(90deg, #6bb5d0 2.92%, #37eabb 100%);
-    color: var(--imperial-white);
-    font-weight: 500;
-    border-radius: 40px;
-    font-size: 18px;
-    border: none;
-    padding: 15px;
-    cursor: pointer;
-    width: 90%;
-  }
+  background: linear-gradient(90deg, #6bb5d0 2.92%, #37eabb 100%);
+  color: var(--imperial-white);
+  font-weight: 500;
+  border-radius: 40px;
+  font-size: 18px;
+  border: none;
+  padding: 15px;
+  cursor: pointer;
+  width: 90%;
+}
 
 .fontButton {
   width: 100%;
@@ -17,13 +17,13 @@
   color: var(--primary-color-light);
 }
 
-.fontSubtitle{
-    font-weight: bold;
-    color: #1e293b
+.fontSubtitle {
+  font-weight: bold;
+  color: #1e293b;
 }
 
-.styleBox{
-    border-radius: 1rem;
+.styleBox {
+  border-radius: 1rem;
 }
 
 .filter-container {
@@ -34,4 +34,10 @@
   align-items: center;
   flex-direction: column;
   justify-content: space-around;
+}
+
+.cancelBtnAppointments {
+  padding: 10px 80px;
+  display: flex;
+  justify-content: center;
 }

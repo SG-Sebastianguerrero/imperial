@@ -1,0 +1,56 @@
+.medicalHistory {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.buttonAppointment {
+  background: linear-gradient(90deg, #6bb5d0 2.92%, #37eabb 100%);
+  color: var(--imperial-white);
+  font-weight: 500;
+  border-radius: 40px;
+  font-size: 18px;
+  width: 30%;
+  padding: 0 25px;
+  display: flex;
+  margin: 0 auto;
+  justify-content: center;
+  text-align: center;
+  width: 80%;
+  padding: 10px 20px;
+}
+.card {
+  display: grid;
+  background: var(--sidebar-color);
+  border: 1px solid var(--text-color);
+  border-radius: 20px;
+  text-align: left;
+  padding: 20px;
+  margin: 10px 0px;
+  width: 80%;
+  height: 137px;
+}
+.cancel {
+  width: 287px;
+}
+.deleteIcon {
+  position: absolute;
+  display: flex;
+  right: 0;
+}
+.trashContainer {
+  width: 100%;
+  display: flex;
+  align-items: flex-end;
+  justify-content: right;
+  position: relative;
+  top: 25px;
+}
+.deleteIcon {
+  width: 15px;
+  cursor: pointer;
+}

@@ -1,60 +1,78 @@
-.background-body{
-  background-image: linear-gradient(to bottom, #00293a, #134154, #265b6f, #39768b, #4c92a8, #4da2b7, #4fb3c5, #52c4d2, #43ccd2, #37d4ce, #35dbc8, #3fe2bf);
+.background-body {
+  background-image: linear-gradient(
+    to bottom,
+    #00293a,
+    #134154,
+    #265b6f,
+    #39768b,
+    #4c92a8,
+    #4da2b7,
+    #4fb3c5,
+    #52c4d2,
+    #43ccd2,
+    #37d4ce,
+    #35dbc8,
+    #3fe2bf
+  );
 }
 
 .filter-container-calling {
-    width: 100%;
-    height: 100%;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    justify-content: space-around;
-  }
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-around;
+}
 
-.header{
+.header {
   height: 20%;
 }
 
-.body-calling{
+.body-calling {
   height: 70%;
 }
 
-.footer-calling{
+.footer-calling {
   height: 10%;
 }
 
 .icon {
-    color: white;
+  color: white;
 }
 
-.icon-return{
+.icon-return {
   margin-top: 1rem;
   margin-left: 2rem;
-  cursor: pointer; 
+  cursor: pointer;
 }
 
-.icon-user{
+.icon-user {
   margin-top: 1rem;
-  cursor: pointer; 
+  cursor: pointer;
   margin-left: 5rem;
 }
 
 .big-icon {
   margin-left: 35%;
   margin-top: 10%;
-  cursor: pointer; 
+  cursor: pointer;
 }
 
-.footer{
+.footer {
   background: white;
 }
 
-.down-elements{
+.down-elements {
   margin-top: 2rem;
-  
 }
 
-.pull-apart-elemts{
+.pull-apart-elemts {
   margin-left: 1.5rem;
   cursor: pointer;
+}
+
+.iconBack {
+  position: absolute;
+  z-index: 10;
 }
