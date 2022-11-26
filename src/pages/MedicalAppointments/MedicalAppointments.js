@@ -18,11 +18,7 @@ class MedicalAppointments extends Component {
 
           <div className="card">
             <div className="trashContainer">
-              <img
-                src="assets/icons/delete.png"
-                alt="information icon"
-                className="deleteIcon"
-              ></img>
+              <button className="deleteContainer">Cancelar</button>
             </div>
             <span>Fecha: 10 / 10 / 2022</span>
             <span>Paciente: Carolina Romero</span>
@@ -31,11 +27,7 @@ class MedicalAppointments extends Component {
           </div>
           <div className="card">
             <div className="trashContainer">
-              <img
-                src="assets/icons/delete.png"
-                alt="information icon"
-                className="deleteIcon"
-              ></img>
+              <button className="deleteContainer">Cancelar</button>
             </div>
             <span>Fecha: 10 / 10 / 2022</span>
             <span>Paciente: Carolina Romero</span>
@@ -44,11 +36,7 @@ class MedicalAppointments extends Component {
           </div>
           <div className="card">
             <div className="trashContainer">
-              <img
-                src="assets/icons/delete.png"
-                alt="information icon"
-                className="deleteIcon"
-              ></img>
+              <button className="deleteContainer">Cancelar</button>
             </div>
             <span>Fecha: 10 / 10 / 2022</span>
             <span>Paciente: Carolina Romero</span>
